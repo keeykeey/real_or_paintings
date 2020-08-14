@@ -1,4 +1,4 @@
-.env
+accounts/.env
 real_or_paintings/settings.py
 
 
