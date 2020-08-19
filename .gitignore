@@ -1,3 +1,4 @@
 accounts/.env
 accounts/images/
 config/settings.py
+db.sqlite3
