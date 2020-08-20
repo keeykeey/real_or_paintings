@@ -8,8 +8,8 @@ def login(request):
     return HttpResponse('login page')
 #    return render(request,'templates/login.html')
 
-def membersPage(request):
-    return HttpResponse("This is a member's page")
+def membersPage(request,member_id):
+    return HttpResponse("This is a member{}'s page".format(member_id))
 
-def contentPage(request):
-    return HttpResponse("this is a content page")
+def contentsPage(request,member_id):
+    return HttpResponse("this is a member{}s contents page".format(member_id))
